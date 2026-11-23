@@ -1,0 +1,32 @@
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 56px;
+}
+
+.hero-section {
+    min-height: 85vh;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.dev-card {
+    border-radius: 12px;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.project-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+}
